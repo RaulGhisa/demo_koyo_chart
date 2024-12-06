@@ -26,4 +26,4 @@ if __name__ == '__main__':
 
     # UNCOMMENT if you want to play the generated audios
     # for file in os.listdir(os.path.abspath(OUTPUT_DIR)):
-    #     play_audio_from_file(fi
+    #     play_audio_from_file(file)
