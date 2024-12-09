@@ -4,7 +4,8 @@ import os
 
 TEXT_COMMANDS_TO_SPEECH = [
     'Tell me what to grasp',
-    'Planning the movement now...'
+    'Planning the movement now...',
+    'Pick up banana!'
 ]
 
 OUTPUT_DIR = r'./out'
