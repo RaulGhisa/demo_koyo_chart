@@ -1,0 +1,15 @@
+# NOT USED!!!
+
+services:
+  rabbitmq:
+    image: rabbitmq:4.0-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"     # RabbitMQ default port for AMQP
+      - "15672:15672"   # RabbitMQ management plugin UI
+    volumes:
+      - /home/psxrg6/Documents/code/demo_koyo_chart/src/mqtt/docker_stuff/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    restart: always
