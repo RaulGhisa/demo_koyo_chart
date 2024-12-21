@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Text 2 Speech",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/text_2_speech.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "MQTT Server",
             "type": "debugpy",
             "request": "launch",
